@@ -5,8 +5,11 @@ function Ficha() {
     return (
       <>
         <div className="container">
-        <h1>Ficha D</h1>
-        <div className="sub-container"></div>
+        <h3>Treino D</h3>
+            <div className="sub-container">
+                <p>Biceps, Tríceps</p>
+                <p>Lista de exercícios</p>
+            </div>
         </div>
       </>
     )
