@@ -1,11 +1,13 @@
 import './App.css'
-import './components/Ficha'
+import Ficha from './components/Ficha'
 
 function App() {
 
   return (
     <>
-      
+      <div className='aplicativo'>
+        <Ficha/>
+      </div>
     </>
   )
 }

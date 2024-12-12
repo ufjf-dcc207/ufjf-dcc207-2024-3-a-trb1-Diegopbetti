@@ -1,3 +1,5 @@
+import './Ficha.css'
+
 function Ficha() {
 
     return (
