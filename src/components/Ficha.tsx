@@ -1,4 +1,5 @@
 import './Ficha.css'
+import Treino from './Treino'
 
 function Ficha() {
 
@@ -9,6 +10,7 @@ function Ficha() {
             <div className="sub-container">
                 <p>Biceps, Tríceps</p>
                 <p>Lista de exercícios</p>
+                <Treino />
             </div>
         </div>
       </>
