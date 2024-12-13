@@ -6,10 +6,12 @@ function Ficha() {
     return (
       <>
         <div className="container">
-        <h3>Treino D</h3>
+        <h4>Treino D</h4>
             <div className="sub-container">
-                <p>Biceps, Tríceps</p>
-                <p>Lista de exercícios</p>
+                <div className='nome-do-treino'>
+                    <p>Biceps, Tríceps</p>
+                    <p>Lista de exercícios</p>
+                </div>
                 <Treino />
             </div>
         </div>

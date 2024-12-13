@@ -6,10 +6,12 @@ function Treino() {
     return (
       <>
         <div className='exercicio'>
-            <button>X</button>
-            <img src={biceps} alt="" />
-            <p>Exercicio aleatório</p>
-            <p>séries</p>
+            <input className='btn' type="checkbox"></input>            
+            <img className='imagem' src={biceps} alt="" />
+            <div className='series'> 
+                <p>Exercicio aleatório</p>
+                <p>séries</p>
+            </div>
         </div>
       </>
     )
