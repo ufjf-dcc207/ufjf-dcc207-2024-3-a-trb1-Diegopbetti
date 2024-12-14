@@ -1,20 +1,23 @@
 import './Treino.css'
 import biceps from "../assets/biceps.png"
 
-function Treino() {
+interface TreinoProps {
+  imagem: string;
+  exercicio: string;
+  series: number;
+  repeticoes1: number;
+  repeticoes2: number
+}
 
+export default function ({imagem, exercicio, series, repeticoes1, repeticoes2}: TreinoProps){
     return (
-      <>
         <div className='exercicio'>
             <input className='btn' type="checkbox"></input>            
-            <img className='imagem' src={biceps} alt="" />
+            <img className='imagem' src={imagem} alt="" />
             <div className='series'> 
-                <p>Exercicio aleatório</p>
-                <p>séries</p>
+                <p>{exercicio}</p>
+                <p>{series}x {repeticoes1}a{repeticoes2}</p>
             </div>
         </div>
-      </>
-    )
+    );
   }
-  
-  export default Treino
