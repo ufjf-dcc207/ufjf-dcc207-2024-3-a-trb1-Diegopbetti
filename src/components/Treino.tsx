@@ -1,5 +1,4 @@
 import './Treino.css'
-import biceps from "../assets/biceps.png"
 
 interface TreinoProps {
   imagem: string;
