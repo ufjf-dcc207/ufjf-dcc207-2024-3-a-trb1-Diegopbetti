@@ -1,8 +1,12 @@
 import './Ficha.css'
 import Treino from './Treino'
 
+interface FichaProps {
+  TREINO: [string, string, number, number, number][];
+  IMAGES: { [key: string]: string };
+}
 
-function Ficha() {
+function Ficha({ TREINO, IMAGES }: FichaProps) {
 
     return (
       <>
