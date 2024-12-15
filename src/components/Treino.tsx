@@ -5,7 +5,7 @@ interface TreinoProps {
   exercicio: string;
   series: number;
   repeticoes1: number;
-  repeticoes2: number
+  repeticoes2: number;
 }
 
 export default function ({imagem, exercicio, series, repeticoes1, repeticoes2}: TreinoProps){
