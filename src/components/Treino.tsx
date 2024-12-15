@@ -15,7 +15,7 @@ export default function ({imagem, exercicio, series, repeticoes1, repeticoes2}: 
             <img className='imagem' src={imagem} alt="" />
             <div className='series'> 
                 <p>{exercicio}</p>
-                <p>{series}x {repeticoes1}a{repeticoes2}</p>
+                <p>{series}x {repeticoes1} a {repeticoes2}</p>
             </div>
         </div>
     );

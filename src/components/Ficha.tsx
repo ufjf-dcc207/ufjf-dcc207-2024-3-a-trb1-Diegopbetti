@@ -33,10 +33,10 @@ function Ficha() {
       <>
         <div className="container">
         <h4>Treino D</h4>
+          <p>Biceps, Tríceps</p>
+          <p>Lista de exercícios</p>
             <div className="sub-container">
                 <div className='nome-do-treino'>
-                    <p>Biceps, Tríceps</p>
-                    <p>Lista de exercícios</p>
                     {TREINO.map(([nomeImagem, exercicio, series, repeticoes1, repeticoes2], index) => (
                       <Treino
                         key={index}
