@@ -1,8 +1,10 @@
 .container{
     background-color: #fff;
     color: black;
-    height: 95vh;
-    width: 35vw;
+    max-height: 598px;
+    height: 100%;
+    max-width: 386px;
+    width: 100%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
