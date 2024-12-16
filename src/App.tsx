@@ -1,5 +1,6 @@
 import './App.css'
 import Ficha from './components/Ficha'
+import { TREINO, IMAGES } from './TreinoInfo';
 
 function App() {
 
